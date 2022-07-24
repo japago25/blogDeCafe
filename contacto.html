@@ -42,20 +42,31 @@
 
     <main class="contenedor">
 
-        <h3 class="centrar-texto">Entrada de Blog</h3>
+        <h3 class="centrar-texto">Contacto</h3>
 
-        <img src="img/blog1.jpg" alt="imagen del blog">
+        <div class="contacto-bg"></div>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est tempore eveniet tenetur, modi, incidunt quaerat
-            ducimus ex sed numquam facere error placeat. Saepe voluptatum officia ex pariatur harum hic ea.</p>
+        <form class="formulario">
+            <div class="campo">
+                <label class="campo__label" for="nombre">Nombre</label>
+                <input class="campo__field" type="text" placeholder="Tu nombre" id="nombre">
+            </div>
 
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, vitae voluptates. Rem, officia facere
-            impedit doloremque cupiditate assumenda vero facilis ipsa ut totam? Necessitatibus esse autem rerum nisi!
-            Molestiae, nemo.</p>
+            <div class="campo">
+                <label class="campo__label" for="email">E-mail</label>
+                <input class="campo__field" type="email" placeholder="Tu E-mail" id="email">
+            </div>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere libero numquam suscipit expedita autem
-            asperiores tempora. Sed sequi labore consequuntur quam numquam, sit fuga in ratione? Commodi praesentium
-            tempore quod.</p>
+            <div class="campo">
+                <label class="campo__label" for="mensaje">Mensaje</label>
+                <textarea class="campo__field campo__field--textarea" id="mensaje"></textarea>
+            </div>
+
+            <div class="campo">
+                <input type="submit" value="Enviar" class="boton boton--primario">
+            </div>
+
+        </form>
 
     </main>
 
